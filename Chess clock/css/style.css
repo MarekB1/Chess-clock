@@ -41,6 +41,10 @@ body {
     background-color: var(--start) !important;
 }
 
+.overlay {
+    opacity: .5;
+}
+
 .clock-one,
 .clock-two,
 .text {
@@ -56,7 +60,7 @@ body {
     /* border: 2px solid black; */
 
     height: 100%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 /*  PRVÉ HODINY */
