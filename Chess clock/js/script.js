@@ -26,6 +26,25 @@ var time  = 300, // čas v sekundách
     }, 1000);
 
     // Click event to the buttons
+playerOne.on('click', function(event) {
+    console.log('Hráč jedna');
+    playerOne.addClass('start');
+    playerOne.removeClass('stop');
+    playerTwo.addClass('stop');
+    playerTwo.removeClass('start');
+    event.preventDefault();
+});
+
+playerTwo.on('click', function(event) {
+    console.log('Hráč dva');
+    playerTwo.addClass('start');
+    playerTwo.removeClass('stop');
+    playerOne.addClass('stop');
+    playerOne.removeClass('start');
+    event.preventDefault();
+
+});
+
 pause.on('click', function(event) {
     console.log('pauza');
     event.preventDefault();
