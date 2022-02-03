@@ -49,7 +49,7 @@ body {
 .time-two {
     font-size: 4rem;
     text-align: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
     height: 100%;
     margin-top: 10%;
